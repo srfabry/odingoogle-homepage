@@ -30,6 +30,28 @@ div {display: block;}
   font-weight: bold;
   color: gray;
 }
+#search-box{
+  font-family: arial, sans-serif;
+  display: block;
+  margin-left: 5%;
+  margin-top: 20px;
+  padding-left: 15px;
+  width: 480px;
+  height: 45px;
+  border: solid 1px;
+  border-top-color: #EAEAEA;
+  border-left-color:#DDDDDD;
+  border-right-color:#DDDDDD;
+  border-bottom-color:#CBCBCB;
+
+  border-radius: 3px;
+}
+}
+#search-box:hover, #search-box:focus{
+  box-shadow: 1px 3px 8px 2px #DDDDDD;
+  -moz-box-shadow: 1px 3px 8px 2px #DDDDDD;
+  -webkit-box-shadow: 1px 3px 8px 2px #DDDDDD;
+}
 #lucky { margin-left: 4px;}
 
 nav ul{
