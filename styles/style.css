@@ -30,6 +30,13 @@ div {display: block;}
   font-weight: bold;
   color: gray;
 }
+//#search-box {
+    width: 96%;
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px 1px rgba(128,128,128,0.4);
+    padding: 14px;
+    margin-top: 25px;
+}
 #search-box{
   font-family: arial, sans-serif;
   display: block;
@@ -46,11 +53,18 @@ div {display: block;}
 
   border-radius: 3px;
 }
-}
+
 #search-box:hover, #search-box:focus{
   box-shadow: 1px 3px 8px 2px #DDDDDD;
   -moz-box-shadow: 1px 3px 8px 2px #DDDDDD;
   -webkit-box-shadow: 1px 3px 8px 2px #DDDDDD;
+}
+input {
+    width: 96%;
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px 1px rgba(128,128,128,0.4);
+    padding: 14px;
+    margin-top: 25px;
 }
 #lucky { margin-left: 4px;}
 
